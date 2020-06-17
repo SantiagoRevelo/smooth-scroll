@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smooth scroll text</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- div.buttons-wrapper>a.btn[href="#section_$"]{Ir a sección $}*6 -->
+        <div class="buttons-wrapper">
+            <a href="#section_1" class="btn">Ir a sección 1</a>
+            <a href="#section_2" class="btn">Ir a sección 2</a>
+            <a href="#section_3" class="btn">Ir a sección 3</a>
+            <a href="#section_4" class="btn">Ir a sección 4</a>
+            <a href="#section_5" class="btn">Ir a sección 5</a>
+            <a href="#section_6" class="btn">Ir a sección 6</a>
+        </div>
+        <!-- (section#section_$.article-wrapper>article.content)*6 -->
+        <section id="section_1" class="article-wrapper">
+            <article class="content">Sección 1</article>
+        </section>
+        <section id="section_2" class="article-wrapper">
+            <article class="content">Sección 2</article>
+        </section>
+        <section id="section_3" class="article-wrapper">
+            <article class="content">Sección 3</article>
+        </section>
+        <section id="section_4" class="article-wrapper">
+            <article class="content">Sección 4</article>
+        </section>
+        <section id="section_5" class="article-wrapper">
+            <article class="content">Sección 5</article>
+        </section>
+        <section id="section_6" class="article-wrapper">
+            <article class="content">Sección 6</article>
+        </section>
+        <span class="goTop">
+            <a href="#section1">
+                <i class="mdi mdi-top"></i>
+            </a>
+        </span>
+        
+        <script src="smooth-scroll.js" async defer></script>
+    </body>
+</html>
